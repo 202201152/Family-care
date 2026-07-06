@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --color-primary: #4CAF50;
+  --color-primary-dark: #388E3C;
+  --color-secondary: #FFFFFF;
+  --color-surface: #F7F8FA;
+  --color-card: #F4F6F5;
+  --color-success: #10B981;
+  --color-reminder: #F97316;
+  --color-info: #3B82F6;
+  --color-emergency: #EF4444;
+  --color-text-dark: #222222;
+  --color-text-light: #6B7280;
+  --color-divider: #ECECEC;
+  
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Base resets & typography */
+@layer base {
+  body {
+    @apply bg-surface text-text-dark font-sans antialiased selection:bg-primary/30;
+  }
+}
+
+/* Reusable Utility Classes for the "Calm" aesthetic */
+@layer utilities {
+  .card-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  }
+  .card-hover {
+    @apply transition-transform duration-300 ease-out hover:-translate-y-1;
+  }
+}
