@@ -1,4 +1,3 @@
-import React from 'react';
 import { Home, Users, Activity, FileText, Menu } from 'lucide-react';
 import { NavLink } from 'react-router';
 import { cn } from '../ui/Button';
