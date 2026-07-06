@@ -2,11 +2,10 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import { Layout } from './components/layout/Layout';
 import { Home } from './features/home/Home';
 
-// Placeholder components
-const Family = () => <div className="p-6"><h1>Family Members</h1></div>;
-const Health = () => <div className="p-6"><h1>Health Records</h1></div>;
-const Reports = () => <div className="p-6"><h1>Reports</h1></div>;
-const More = () => <div className="p-6"><h1>More Settings</h1></div>;
+import { Family } from './features/family/Family';
+import { Health } from './features/health/Health';
+import { Reports } from './features/reports/Reports';
+import { More } from './features/more/More';
 
 function App() {
   return (

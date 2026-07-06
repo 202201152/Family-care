@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @theme {
-  --color-primary: #4CAF50;
-  --color-primary-dark: #388E3C;
+  --color-primary: #164E44; /* Deep forest green */
+  --color-primary-dark: #0F362F;
   --color-secondary: #FFFFFF;
-  --color-surface: #F7F8FA;
-  --color-card: #F4F6F5;
+  --color-surface: #F5F7F9; /* Very light gray/blue background */
+  --color-card: #FFFFFF; /* Pure white cards */
   --color-success: #10B981;
-  --color-reminder: #F97316;
+  --color-reminder: #F59E0B;
   --color-info: #3B82F6;
   --color-emergency: #EF4444;
-  --color-text-dark: #222222;
+  --color-text-dark: #111827; /* Darker text */
   --color-text-light: #6B7280;
-  --color-divider: #ECECEC;
+  --color-divider: #F3F4F6;
   
   --font-sans: 'Inter', sans-serif;
 }
